@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Jagnoor Kaur</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Jagnoor<span>Kaur</span></a>
+        <nav class="navbar">
+            <a class="active" href="#home">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Jagnoor</span></h1>
+            <h3 class="text-animation">I'm a<span></span></h3>
+            <p>I am a full stack software developer seeking opportunities in tech.</p>
+            <div class="social-icons">
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            </div>
+            <div class="btn-group">
+                <a href="#" class="btn">Hire</a>
+                <a href="#" class="btn">Contact</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="img.png" alt="Jagnoor Kaur">
+        </div>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">Skill 1</div>
+            <div class="skill">Skill 2</div>
+            <div class="skill">Skill 3</div>
+            <div class="skill">Skill 4</div>
+            
+        </div>
+    </section>
+    
+    <section class="education" id="education">
+        <h2 class="education-heading">Education</h2>
+        <div class="education-container">
+            <div class="education-card">
+                <h3>IIT-ROPAR</h3>
+                <p>Advance diploma in Artificial Intelligence</p>
+                <span class="education-year">2021 - 2022</span>
+            </div>
+            <div class="education-card">
+                <h3>Georgian College</h3>
+                <p>Computer Programming</p>
+                <span class="education-year">2022 - 2024</span>
+            </div>
+            
+        </div>
+    </section>
+    
+    
+    <section class="experience" id="experience">
+        <h2 class="heading">Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2023 - Present</div>
+                    <h3>Software Developer</h3>
+                    <p>ABC Tech Solutions</p>
+                    <p>Developed and maintained web applications using modern frameworks and technologies.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2021 - 2023</div>
+                    <h3>Intern</h3>
+                    <p>XYZ Innovations</p>
+                    <p>Assisted in the development of internal tools and applications, gaining hands-on experience in software development.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="projects" id="projects">
+        <h2 class="projects-heading">My Projects</h2>
+        <div class="project-list">
+            <div class="project">
+                <i class='bx bxl-apple' style='color:#00eeff'></i>
+                <h2>UI/UK Design</h2>
+                <p>My name is Navnoor Kaur and I am studying computer programming at Georgian College.</p>
+                <a href="#" class="btn-box">Learn More</a>
+            </div>
+            <div class="project">
+                <i class='bx bxl-apple' style='color:#00eeff'></i>
+                <h2>UI/UK Design</h2>
+                <p>My name is Navnoor Kaur and I am studying computer programming at Georgian College.</p>
+                <a href="#" class="btn-box">Learn More</a>
+            </div>
+            <div class="project">
+                <i class='bx bxl-apple' style='color:#00eeff'></i>
+                <h2>UI/UK Design</h2>
+                <p>My name is Navnoor Kaur and I am studying computer programming at Georgian College.</p>
+                <a href="#" class="btn-box">Learn More</a>
+            </div>
+            <div class="project">
+                <i class='bx bxl-apple' style='color:#00eeff'></i>
+                <h2>UI/UK Design</h2>
+                <p>My name is Navnoor Kaur and I am studying computer programming at Georgian College.</p>
+                <a href="#" class="btn-box">Learn More</a>
+            </div>
+            <div class="project">
+                <i class='bx bxl-apple' style='color:#00eeff'></i>
+                <h2>UI/UK Design</h2>
+                <p>My name is Navnoor Kaur and I am studying computer programming at Georgian College.</p>
+                <a href="#" class="btn-box">Learn More</a>
+            </div>
+            
+        </div>
+    </div>
+    
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="heading">Contact Me</h2>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
